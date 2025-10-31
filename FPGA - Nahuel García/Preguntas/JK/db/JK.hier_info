@@ -1,0 +1,9 @@
+|JK
+CLK => Q_reg.CLK
+CLR => Q_reg.ACLR
+J => ~NO_FANOUT~
+K => ~NO_FANOUT~
+Q <= Q_reg.DB_MAX_OUTPUT_PORT_TYPE
+QN <= Q_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,6 @@
+entity Maquina_estado is
+    Port (
+       
+        z : out STD_LOGIC_VECTOR (3 downto 0) -- Necesito 4 bits para la salida
+    );
+end entity;

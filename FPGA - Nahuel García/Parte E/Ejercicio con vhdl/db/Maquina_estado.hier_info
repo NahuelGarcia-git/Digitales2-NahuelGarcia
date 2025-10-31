@@ -1,0 +1,35 @@
+|Maquina_estado
+clk => presente_estado~1.DATAIN
+reset => presente_estado~3.DATAIN
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => Selector8.IN2
+x => Selector9.IN2
+x => Selector10.IN2
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => siguiente_estado.OUTPUTSELECT
+x => Selector7.IN2
+x => Selector8.IN3
+x => Selector9.IN3
+z[0] <= Selector10.DB_MAX_OUTPUT_PORT_TYPE
+z[1] <= Selector9.DB_MAX_OUTPUT_PORT_TYPE
+z[2] <= Selector8.DB_MAX_OUTPUT_PORT_TYPE
+z[3] <= Selector7.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte A\simulation\qsim
+vSumador_Completo
+Z1 I:nZ[>AY4NI9cTCEendaH_3
+Z2 VSN7Wb_99g2_C;`TmVJVd20
+Z3 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte A\simulation\qsim
+Z4 w1761080059
+Z5 8Sumador_Completo.vo
+Z6 FSumador_Completo.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Sumador_Completo.vo|
+Z9 o-work work -O0
+Z10 n@sumador_@completo
+!i10b 1
+Z11 !s100 GK@Pj0[mcBg_k8;[CLQOa2
+!s85 0
+Z12 !s108 1761080061.044000
+Z13 !s107 Sumador_Completo.vo|
+!s101 -O0
+vSumador_Completo_vlg_check_tst
+!i10b 1
+Z14 !s100 7[eOW1[eDV6[ZQjSe1>e13
+Z15 IjeGD;lzW[5m3R79nk`hCU0
+Z16 V`WdhQNlWR9U7;D;km[ldF0
+R3
+Z17 w1761080057
+Z18 8Sumador_Completo.vt
+Z19 FSumador_Completo.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1761080061.279000
+Z21 !s107 Sumador_Completo.vt|
+Z22 !s90 -work|work|Sumador_Completo.vt|
+!s101 -O0
+R9
+Z23 n@sumador_@completo_vlg_check_tst
+vSumador_Completo_vlg_sample_tst
+!i10b 1
+Z24 !s100 `Z;MM^;8l783kP?Q3KE5>3
+Z25 I69j45P^U`1JfJHd6ibzUD2
+Z26 V>iJ6FKSc90MS[ch7G<eRe1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@sumador_@completo_vlg_sample_tst
+vSumador_Completo_vlg_vec_tst
+!i10b 1
+Z28 !s100 0DB254HaYM:M4Dz<UoeQK2
+Z29 I:L:FMi=Mn3YMoXzWgN:JF0
+Z30 VSnCUE^iHVR@SjZV0<4SlA3
+R3
+R17
+R18
+R19
+Z31 L0 183
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@sumador_@completo_vlg_vec_tst

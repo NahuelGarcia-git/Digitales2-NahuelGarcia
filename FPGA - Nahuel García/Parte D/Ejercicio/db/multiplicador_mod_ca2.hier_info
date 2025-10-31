@@ -1,0 +1,19 @@
+|multiplicador_mod_ca2
+A_in[0] => Mult1.IN1
+A_in[0] => Mult0.IN1
+A_in[1] => Mult1.IN0
+A_in[1] => Mult0.IN0
+B_in[0] => Mult1.IN3
+B_in[0] => Mult0.IN3
+B_in[1] => Mult1.IN2
+B_in[1] => Mult0.IN2
+R_mod[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+R_mod[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+R_mod[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+R_mod[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+R_ca2[0] <= Mult1.DB_MAX_OUTPUT_PORT_TYPE
+R_ca2[1] <= Mult1.DB_MAX_OUTPUT_PORT_TYPE
+R_ca2[2] <= Mult1.DB_MAX_OUTPUT_PORT_TYPE
+R_ca2[3] <= Mult1.DB_MAX_OUTPUT_PORT_TYPE
+
+

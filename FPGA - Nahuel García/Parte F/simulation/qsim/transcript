@@ -1,0 +1,18 @@
+# do IIC.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Bloque_1
+# 
+# Top level modules:
+# 	Bloque_1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Bloque_1_vlg_sample_tst
+# -- Compiling module Bloque_1_vlg_check_tst
+# ** Error: IIC.vt(110): (vlog-2730) Undefined variable: 'hab_dat_expected'.
+# 
+# ** Error: IIC.vt(116): (vlog-2730) Undefined variable: 'hab_dir_expected'.
+# 
+# ** Error: IIC.vt(119): near ")": syntax error, unexpected ')'
+# ** Error: IIC.vt(141): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER
+# ** Error: IIC.vt(200): near ".": syntax error, unexpected '.', expecting ')'
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./IIC.do line 4

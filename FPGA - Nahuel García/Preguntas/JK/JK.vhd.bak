@@ -1,0 +1,42 @@
+library IEEE;
+use IEEe.STD_LOGIC_1164.ALL;
+
+entity Programas is
+    port (
+        CLK   : in  std_logic;
+        CLR   : in  std_logic;
+        J     : in  std_logic;
+        K     : in  std_logic;
+        Q     : out std_logic;
+        QN    : out std_logic  -- Q negada
+    );
+end entity;
+
+architecture comportamiento of Programas is
+    signal Q_reg : std_logic := '0'; -- Valor actual
+	 signal JK_Vector : std_logic_vector(1 downto 0);
+
+begin
+    process (CLK, CLR)
+    begin
+        if CLR = '0' then
+            Q_reg <= '0';
+        elsif rising_edge(CLK) then
+            case JK_Vector is
+                when "00" => -- Mantener estado
+                    Q_reg <= Q_reg;
+                when "01" => -- Reset (Q=0)
+                    Q_reg <= '0';
+                when "10" => -- Set (Q=1)
+                    Q_reg <= '1';
+                when "11" => -- Conmutar
+                    Q_reg <= not Q_reg;
+                when others =>
+                    Q_reg <= '0';
+            end case;
+        end if;
+    end process;
+    Q  <= Q_reg;
+    QN <= not Q_reg;
+
+end architecture;

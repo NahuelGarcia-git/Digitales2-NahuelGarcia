@@ -1,0 +1,516 @@
+$comment
+	File created using the following command:
+		vcd file State_machine.msim.vcd -direction
+$end
+$date
+	Tue Oct 28 10:54:01 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module State_machine_vlg_vec_tst $end
+$var reg 1 ! clock $end
+$var reg 1 " reset $end
+$var reg 1 # x $end
+$var wire 1 $ z1 $end
+$var wire 1 % z2 $end
+$var wire 1 & z3 $end
+$var wire 1 ' z4 $end
+$var wire 1 ( sampler $end
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / clock~input_o $end
+$var wire 1 0 clock~inputclkctrl_outclk $end
+$var wire 1 1 z1~output_o $end
+$var wire 1 2 z2~output_o $end
+$var wire 1 3 z3~output_o $end
+$var wire 1 4 z4~output_o $end
+$var wire 1 5 x~input_o $end
+$var wire 1 6 reg_fstate.D~0_combout $end
+$var wire 1 7 fstate.D~q $end
+$var wire 1 8 reg_fstate.A~0_combout $end
+$var wire 1 9 fstate.A~q $end
+$var wire 1 : reg_fstate.E~0_combout $end
+$var wire 1 ; fstate.E~q $end
+$var wire 1 < reg_fstate.F~0_combout $end
+$var wire 1 = fstate.F~q $end
+$var wire 1 > reg_fstate.B~0_combout $end
+$var wire 1 ? fstate.B~q $end
+$var wire 1 @ reg_fstate.C~0_combout $end
+$var wire 1 A fstate.C~q $end
+$var wire 1 B reg_fstate.G~0_combout $end
+$var wire 1 C fstate.G~q $end
+$var wire 1 D reset~input_o $end
+$var wire 1 E z1~0_combout $end
+$var wire 1 F z1~1_combout $end
+$var wire 1 G z2~0_combout $end
+$var wire 1 H z2~1_combout $end
+$var wire 1 I z3~0_combout $end
+$var wire 1 J z4~0_combout $end
+$var wire 1 K z4~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+1&
+0'
+x(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+12
+13
+04
+05
+06
+07
+18
+09
+0:
+0;
+0<
+0=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+1H
+1I
+0J
+0K
+$end
+#35000
+1!
+1/
+10
+0(
+1?
+19
+1J
+1@
+1E
+0>
+1K
+1F
+14
+11
+1'
+1$
+#40000
+1#
+1"
+15
+1D
+1(
+0E
+0@
+08
+0K
+0I
+0H
+04
+03
+02
+0'
+0&
+0%
+0F
+01
+0$
+#60000
+0"
+0D
+0(
+1E
+1@
+18
+1K
+1I
+1H
+14
+13
+12
+1'
+1&
+1%
+1F
+11
+1$
+#70000
+0!
+0/
+00
+1(
+#105000
+1!
+1/
+10
+0(
+1A
+0?
+0J
+0E
+1B
+1G
+0@
+0K
+0F
+0I
+0H
+04
+01
+03
+02
+0'
+0$
+0&
+0%
+#140000
+0#
+0!
+05
+0/
+00
+1(
+1J
+0B
+16
+1F
+11
+1$
+1K
+14
+1'
+#175000
+1!
+1/
+10
+0(
+0A
+17
+1E
+06
+0G
+08
+0F
+01
+0$
+1F
+1I
+1H
+11
+13
+12
+1$
+1&
+1%
+#210000
+0!
+0/
+00
+1(
+#220000
+1#
+15
+0(
+#245000
+1!
+1/
+10
+1(
+09
+07
+1G
+0E
+1:
+0J
+18
+0I
+0H
+0F
+0K
+03
+02
+01
+04
+0&
+0%
+0$
+0'
+#280000
+0!
+0/
+00
+0(
+#300000
+0#
+05
+1(
+0G
+1>
+0:
+1I
+1H
+13
+12
+1&
+1%
+#315000
+1!
+1/
+10
+0(
+1?
+19
+1J
+1@
+1E
+0>
+1K
+1F
+14
+11
+1'
+1$
+#350000
+0!
+0/
+00
+1(
+#385000
+1!
+1/
+10
+0(
+1A
+0?
+0E
+16
+1G
+0@
+0I
+0H
+03
+02
+0&
+0%
+#400000
+1#
+15
+1(
+0J
+1B
+06
+0F
+01
+0$
+0K
+04
+0'
+#420000
+0!
+0/
+00
+0(
+#455000
+1!
+1/
+10
+1(
+1C
+0A
+08
+0B
+#460000
+0#
+05
+0(
+#490000
+0!
+0/
+00
+1(
+#525000
+1!
+1/
+10
+0(
+0C
+09
+18
+0G
+1>
+1I
+1H
+13
+12
+1&
+1%
+#560000
+1#
+0!
+15
+0/
+00
+1(
+1G
+0>
+1:
+0I
+0H
+03
+02
+0&
+0%
+#595000
+1!
+1/
+10
+0(
+1;
+19
+1<
+1E
+0:
+1H
+12
+1%
+1F
+11
+1$
+#630000
+0!
+0/
+00
+1(
+#640000
+0#
+05
+0(
+#665000
+1!
+1/
+10
+1(
+1=
+0;
+1@
+0<
+0H
+02
+0%
+#700000
+0!
+0/
+00
+0(
+#735000
+1!
+1/
+10
+1(
+1A
+0=
+1J
+0E
+16
+0@
+1K
+14
+1'
+#740000
+1#
+15
+0(
+0J
+1B
+06
+0F
+01
+0$
+0K
+04
+0'
+#770000
+0!
+0/
+00
+1(
+#805000
+1!
+1/
+10
+0(
+1C
+0A
+08
+0B
+#840000
+0!
+0/
+00
+1(
+#875000
+1!
+1/
+10
+0(
+0C
+09
+18
+1:
+#910000
+0!
+0/
+00
+1(
+#945000
+1!
+1/
+10
+0(
+1;
+19
+1<
+1E
+0:
+1H
+12
+1%
+1F
+11
+1$
+#980000
+0#
+0!
+05
+0/
+00
+1(
+#1000000

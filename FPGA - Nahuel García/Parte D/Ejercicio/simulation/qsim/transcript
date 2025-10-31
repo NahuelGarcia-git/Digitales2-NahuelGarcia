@@ -1,0 +1,26 @@
+# do multiplicador_mod_ca2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module multiplicador_mod_ca2
+# 
+# Top level modules:
+# 	multiplicador_mod_ca2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module multiplicador_mod_ca2_vlg_sample_tst
+# -- Compiling module multiplicador_mod_ca2_vlg_check_tst
+# -- Compiling module multiplicador_mod_ca2_vlg_vec_tst
+# 
+# Top level modules:
+# 	multiplicador_mod_ca2_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.multiplicador_mod_ca2_vlg_vec_tst 
+# Loading work.multiplicador_mod_ca2_vlg_vec_tst
+# Loading work.multiplicador_mod_ca2
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.multiplicador_mod_ca2_vlg_sample_tst
+# Loading work.multiplicador_mod_ca2_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : multiplicador_mod_ca2.vt(283)
+#    Time: 1 us  Iteration: 0  Instance: /multiplicador_mod_ca2_vlg_vec_tst/tb_out

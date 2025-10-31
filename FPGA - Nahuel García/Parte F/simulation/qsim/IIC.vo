@@ -1,0 +1,133 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "10/30/2025 20:15:05"
+
+// 
+// Device: Altera EP3C120F780C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Bloque_1 (
+	hab_dir,
+	scl,
+	sda,
+	hab_dat,
+	scl2,
+	clock);
+input 	hab_dir;
+input 	scl;
+input 	sda;
+input 	hab_dat;
+input 	scl2;
+input 	clock;
+
+// Design Ports Information
+// sda	=>  Location: PIN_V2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clock	=>  Location: PIN_AA21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// hab_dir	=>  Location: PIN_D5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// scl	=>  Location: PIN_R24,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// hab_dat	=>  Location: PIN_G6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// scl2	=>  Location: PIN_G5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \sda~input_o ;
+wire \clock~input_o ;
+wire \hab_dir~input_o ;
+wire \scl~input_o ;
+wire \hab_dat~input_o ;
+wire \scl2~input_o ;
+
+
+// Location: IOIBUF_X0_Y28_N15
+cycloneiii_io_ibuf \sda~input (
+	.i(sda),
+	.ibar(gnd),
+	.o(\sda~input_o ));
+// synopsys translate_off
+defparam \sda~input .bus_hold = "false";
+defparam \sda~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X111_Y0_N1
+cycloneiii_io_ibuf \clock~input (
+	.i(clock),
+	.ibar(gnd),
+	.o(\clock~input_o ));
+// synopsys translate_off
+defparam \clock~input .bus_hold = "false";
+defparam \clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X3_Y73_N1
+cycloneiii_io_ibuf \hab_dir~input (
+	.i(hab_dir),
+	.ibar(gnd),
+	.o(\hab_dir~input_o ));
+// synopsys translate_off
+defparam \hab_dir~input .bus_hold = "false";
+defparam \hab_dir~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y35_N22
+cycloneiii_io_ibuf \scl~input (
+	.i(scl),
+	.ibar(gnd),
+	.o(\scl~input_o ));
+// synopsys translate_off
+defparam \scl~input .bus_hold = "false";
+defparam \scl~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y67_N15
+cycloneiii_io_ibuf \hab_dat~input (
+	.i(hab_dat),
+	.ibar(gnd),
+	.o(\hab_dat~input_o ));
+// synopsys translate_off
+defparam \hab_dat~input .bus_hold = "false";
+defparam \hab_dat~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y67_N22
+cycloneiii_io_ibuf \scl2~input (
+	.i(scl2),
+	.ibar(gnd),
+	.o(\scl2~input_o ));
+// synopsys translate_off
+defparam \scl2~input .bus_hold = "false";
+defparam \scl2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+endmodule

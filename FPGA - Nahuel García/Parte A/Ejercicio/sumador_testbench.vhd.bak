@@ -1,0 +1,18 @@
+architecture comportamiento of sumador_testbench is
+  component Sumador_Completo --Delaracion del componente
+  Port (A : in std_logic;
+       B : in std_logic;
+		 Cin : in std_logic;
+		 S : out std_logic;
+		 Cout : out std_logic);
+  end component;
+  
+  --Señales de entrada y salida
+   signal A : std_logic := '0';   -- Asigno el valor a la señal
+	signal B : std_logic := '0';
+	signal Cin : std_logic := '0';
+   signal S : std_logic;           -- A las salidas no les asigno valor porque justamente son salidas
+	signal Cout : std_logic; 
+	begin
+	uut:Sumador_Completo
+	end;

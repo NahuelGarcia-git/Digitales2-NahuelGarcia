@@ -1,0 +1,233 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte C\Ejercicio\simulation\qsim
+vesquematico
+Z1 !s100 ;bfYI;f0<o=5^`92LW81b3
+Z2 Ij=PeGTBR1K4bcf_[oBP8o1
+Z3 VAi:B0X;3F8g1fPEV:ehRE2
+Z4 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte C\Ejercicio\simulation\qsim
+Z5 w1761681271
+Z6 8multiplicador_signo.vo
+Z7 Fmultiplicador_signo.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|multiplicador_signo.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1761681273.469000
+Z12 !s107 multiplicador_signo.vo|
+!s101 -O0
+vesquematico_vlg_check_tst
+!i10b 1
+Z13 !s100 a8<V`ZdPD89fDm_V_hD902
+Z14 IdW7`g9Uhoib^:Tl91Z54O1
+Z15 VU0jb4BUKKV<6MW1BC6EY]3
+R4
+Z16 w1761681269
+Z17 8multiplicador_signo.vt
+Z18 Fmultiplicador_signo.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1761681273.688000
+Z20 !s107 multiplicador_signo.vt|
+Z21 !s90 -work|work|multiplicador_signo.vt|
+!s101 -O0
+R10
+vesquematico_vlg_sample_tst
+!i10b 1
+Z22 !s100 Q>EV8I=iLA8fJl]>l?KBn1
+Z23 IYD6kM]hF6;?LEEZH8SBR]0
+Z24 VM]b4XF8QX1S6O^aJA9ilC1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vesquematico_vlg_vec_tst
+!i10b 1
+!s100 I;[0^I_5z;9KlO4kfU@]41
+I_C>Q^X4fIBBJ6J[G6EkXo2
+Z25 V82KEOL[BF`SQKe2gbMPgD0
+R4
+R16
+R17
+R18
+Z26 L0 241
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmultiplicador_signo_otro
+Z27 IZ[EU?[^iJHVlOc:e=P6e50
+Z28 V[4>=_egg^ROaj`C_k`IJM1
+R4
+Z29 w1761519671
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z30 !s100 k7^o=jWBj3nhzN:GUkF=[3
+Z31 !s108 1761519676.911000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_otro_vlg_check_tst
+Z32 IT7c74f_MD3Kz67kL6QYij3
+Z33 VGB7NSjaBNCD`O`En0]<870
+R4
+Z34 w1761519668
+R17
+R18
+L0 63
+R8
+r1
+31
+Z35 !s108 1761519677.162000
+Z36 !s107 multiplicador_signo.vt|
+R21
+R10
+Z37 !s100 J2LOPa7nk8GMU8l4;HS?U3
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_otro_vlg_sample_tst
+Z38 I4]a1VYEGPBC3LUk=1hFlQ2
+Z39 VUfjN0=BOc:MhkgW0BkdgA1
+R4
+R34
+R17
+R18
+L0 29
+R8
+r1
+31
+R35
+R36
+R21
+R10
+Z40 !s100 HEbIAaOdf3mhCM0a8iW>h0
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_otro_vlg_vec_tst
+Z41 I>362jW:TAfS0zhzQDN]]k0
+Z42 VHzA34DN<QDWZGR>gNMnB_2
+R4
+R34
+R17
+R18
+Z43 L0 239
+R8
+r1
+31
+R35
+R36
+R21
+R10
+Z44 !s100 P8k<<@2oEbDf^ced^VkSV2
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_sinff
+Z45 IZO2g1c7_V[l?j?TBC^i2i3
+Z46 VLTm3Kk^CZ]^8=<^aIjiDY0
+R4
+Z47 w1761680850
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z48 !s100 Y;U`e=IgRG?eJzm;DVMHb0
+Z49 !s108 1761680852.769000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_sinff_vlg_check_tst
+Z50 I6HIDgA9_lT^^nofGH<S]72
+Z51 VGMAm4PiVSeGWbINhGS3HR0
+R4
+Z52 w1761680848
+R17
+R18
+L0 63
+R8
+r1
+31
+Z53 !s108 1761680852.973000
+R36
+R21
+R10
+Z54 !s100 U<>20ezjleDgC8W^5[gPl1
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_sinff_vlg_sample_tst
+Z55 IV0g4?[XQa9Mb^Ez9M=U6P1
+Z56 VmG[aXU7dicWfXfJ7V[Ie`1
+R4
+R52
+R17
+R18
+L0 29
+R8
+r1
+31
+R53
+R36
+R21
+R10
+Z57 !s100 ZT0oNb97`gUcSEGPmjMac3
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplicador_signo_sinff_vlg_vec_tst
+Z58 IoU0AZ@KD;KF;Hn96j:=c]3
+Z59 V]8n=4X^eh8JOBG0hUhdOS2
+R4
+R52
+R17
+R18
+R43
+R8
+r1
+31
+R53
+R36
+R21
+R10
+Z60 !s100 ?X>_3`S_o:F9LEl_DL3271
+!i10b 1
+!s85 0
+!s101 -O0

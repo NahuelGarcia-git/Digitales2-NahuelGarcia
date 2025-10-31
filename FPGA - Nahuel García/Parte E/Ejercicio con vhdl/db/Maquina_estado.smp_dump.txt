@@ -1,0 +1,10 @@
+
+State Machine - |Maquina_estado|presente_estado
+Name presente_estado.estado_G presente_estado.estado_F presente_estado.estado_E presente_estado.estado_D presente_estado.estado_C presente_estado.estado_B presente_estado.estado_A 
+presente_estado.estado_A 0 0 0 0 0 0 0 
+presente_estado.estado_B 0 0 0 0 0 1 1 
+presente_estado.estado_C 0 0 0 0 1 0 1 
+presente_estado.estado_D 0 0 0 1 0 0 1 
+presente_estado.estado_E 0 0 1 0 0 0 1 
+presente_estado.estado_F 0 1 0 0 0 0 1 
+presente_estado.estado_G 1 0 0 0 0 0 1 

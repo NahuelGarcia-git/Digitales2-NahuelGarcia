@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte F\simulation\qsim
+vBloque_1
+Z1 IWTZ8`;G]zJ_HCeE0;2_d51
+Z2 VWQl4m@=PW8>zJjkLaaka<2
+Z3 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte F\simulation\qsim
+Z4 w1761866106
+Z5 8IIC.vo
+Z6 FIIC.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@bloque_1
+!i10b 1
+Z10 !s100 fhZg;lNW^;I_8L`RVZB182
+!s85 0
+Z11 !s108 1761866110.212000
+Z12 !s107 IIC.vo|
+Z13 !s90 -work|work|IIC.vo|
+!s101 -O0
+vBloque_1_vlg_sample_tst
+!i10b 1
+!s100 KM3[Xf2io;b[:I98d9m^K2
+Ib8;f5MbL0CDnmoVQ_X4eg2
+VTOVV>]SAc^fZoWFjF7Zd12
+R3
+w1761866103
+8IIC.vt
+FIIC.vt
+L0 29
+R7
+r1
+!s85 0
+31
+!s108 1761866110.994000
+!s107 IIC.vt|
+!s90 -work|work|IIC.vt|
+!s101 -O0
+R8
+n@bloque_1_vlg_sample_tst

@@ -1,0 +1,35 @@
+library IEEe;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL; -- Lo necesito para los tipos SIGNED y UNSIGNED
+
+entity multiplicador_mod_ca2 is
+    Port (
+        A_in  : in  STD_LOGIC_VECTOR (1 downto 0);  --Son las entradas 
+        B_in  : in  STD_LOGIC_VECTOR (1 downto 0);
+        R_mod : out STD_LOGIC_VECTOR (3 downto 0);  --Salida del producto en modulo
+        R_ca2 : out STD_LOGIC_VECTOR (3 downto 0)   --Salida del producto en ca2
+    );
+end entity;
+
+architecture comportamiento of multiplicador_mod_ca2 is
+    signal A_unsigned : UNSIGNED(1 downto 0);
+    signal B_unsigned : UNSIGNED(1 downto 0);
+    signal R_unsigned : UNSIGNED(3 downto 0); 
+    signal A_signed : SIGNED(1 downto 0);
+    signal B_signed : SIGNED(1 downto 0);
+    signal R_signed : SIGNED(3 downto 0); 
+
+BEGIN
+    A_unsigned <= UNSIGNED(A_in);
+    B_unsigned <=UNSIGNED(B_in);
+    A_signed <= SIGNED(A_in);
+    B_signed <= SIGNED(B_in);
+
+    R_unsigned <= A_unsigned * B_unsigned;  -- Multiplicacion en modulo
+
+    R_signed <= A_signed * B_signed;  -- Multiplicacion en ca2
+    
+    R_mod <= STD_LOGIC_VECTOR(R_unsigned);
+    R_ca2 <= STD_LOGIC_VECTOR(R_signed);
+
+end architecture;

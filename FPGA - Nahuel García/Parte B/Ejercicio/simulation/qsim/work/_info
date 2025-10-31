@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte B\Ejercicio\simulation\qsim
+vMultiplicador2x2
+Z1 I;U_611oPg^b6zW9dGA6[<2
+Z2 V7@bXi?n]TUN2T3MPonOYN2
+Z3 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte B\Ejercicio\simulation\qsim
+Z4 w1761322168
+Z5 8Multiplicador2x2.vo
+Z6 FMultiplicador2x2.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Multiplicador2x2.vo|
+Z9 o-work work -O0
+Z10 n@multiplicador2x2
+!i10b 1
+Z11 !s100 hUnmF0IiG^S_SzEA_diSH0
+!s85 0
+Z12 !s108 1761322172.958000
+Z13 !s107 Multiplicador2x2.vo|
+!s101 -O0
+vMultiplicador2x2_vlg_check_tst
+!i10b 1
+Z14 !s100 :i]5d_hLg9a`RAKTKMF6^2
+Z15 I0KZV:Q90d<nOF;e7bj_a22
+Z16 VPDz;m;I74z[Un9c6j4[_T2
+R3
+Z17 w1761322165
+Z18 8Multiplicador2x2.vt
+Z19 FMultiplicador2x2.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z20 !s108 1761322173.192000
+Z21 !s107 Multiplicador2x2.vt|
+Z22 !s90 -work|work|Multiplicador2x2.vt|
+!s101 -O0
+R9
+Z23 n@multiplicador2x2_vlg_check_tst
+vMultiplicador2x2_vlg_sample_tst
+!i10b 1
+Z24 !s100 7CFPH13zcbgmze;N>kfnd3
+Z25 I_09IWSB2o;3Tj@^gDPL]e3
+Z26 Vi_blIhbVPmR9;kJ4hembi0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@multiplicador2x2_vlg_sample_tst
+vMultiplicador2x2_vlg_vec_tst
+!i10b 1
+Z28 !s100 ReheVh`E;h5E0Pg<WV3PF2
+Z29 IAzzdU7>4`]gW5a=oJB8Wm0
+Z30 VLGRAl`5m1`fJTM?3egH0]2
+R3
+R17
+R18
+R19
+Z31 L0 239
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@multiplicador2x2_vlg_vec_tst

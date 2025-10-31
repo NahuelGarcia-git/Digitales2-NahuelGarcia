@@ -1,0 +1,32 @@
+# do Multiplicador2x2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Multiplicador2x2
+# 
+# Top level modules:
+# 	Multiplicador2x2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Multiplicador2x2_vlg_sample_tst
+# -- Compiling module Multiplicador2x2_vlg_check_tst
+# -- Compiling module Multiplicador2x2_vlg_vec_tst
+# 
+# Top level modules:
+# 	Multiplicador2x2_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Multiplicador2x2_vlg_vec_tst 
+# Loading work.Multiplicador2x2_vlg_vec_tst
+# Loading work.Multiplicador2x2
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.Multiplicador2x2_vlg_sample_tst
+# Loading work.Multiplicador2x2_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Multiplicador2x2_v.sdo
+# Loading timing data from Multiplicador2x2_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Multiplicador2x2_vlg_vec_tst File: Multiplicador2x2.vt
+# Simulation passed !
+# ** Note: $finish    : Multiplicador2x2.vt(235)
+#    Time: 1 us  Iteration: 0  Instance: /Multiplicador2x2_vlg_vec_tst/tb_out

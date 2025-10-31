@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte B\Ejercicio\simulation\modelsim
+Emultiplicador2x2
+Z1 w1761328676
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte B\Ejercicio\simulation\modelsim
+Z5 8C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Multiplicador2x2.vhd
+Z6 FC:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Multiplicador2x2.vhd
+l0
+L24
+Vi]:^jAR6LmbkfCHheGWE;2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1761868953.647000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Multiplicador2x2.vhd|
+Z10 !s107 C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Multiplicador2x2.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 G<F]k`Nl5iJQFbP:;5e0M2
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 16 multiplicador2x2 0 22 i]:^jAR6LmbkfCHheGWE;2
+l56
+L38
+VDKOgED:cMT<OVEB<4bilz0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ]CKPQO;fik<9SzU?YI3Kj0
+!i10b 1
+Emultiplicador_testbench
+Z13 w1761868895
+R2
+R3
+R4
+Z14 8C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd
+Z15 FC:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd
+l0
+L4
+VJjmSAbd;_n2Gj<MiTYGbm3
+!s100 VSU<AGC;DcN40]5R9SU^l1
+R7
+31
+!i10b 1
+Z16 !s108 1761868954.022000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd|
+Z18 !s107 C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd|
+R11
+R12
+Acomportamiento
+R2
+R3
+DEx4 work 23 multiplicador_testbench 0 22 JjmSAbd;_n2Gj<MiTYGbm3
+l28
+L7
+VnfaLD1Az:l@bIYKX2G_W13
+!s100 Xea@4IYzgODeUckI4<]?H1
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
+Esumador_completo
+Z19 w1761071848
+R2
+R3
+R4
+Z20 8C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Sumador_Completo.vhd
+Z21 FC:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Sumador_Completo.vhd
+l0
+L4
+V9:Kc69:1TzkaBDg6e8B>R1
+R7
+31
+Z22 !s108 1761868952.754000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Sumador_Completo.vhd|
+Z24 !s107 C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/Sumador_Completo.vhd|
+R11
+R12
+!s100 JZR5cEZC_W^n7I3I>j7I91
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 16 sumador_completo 0 22 9:Kc69:1TzkaBDg6e8B>R1
+l17
+L12
+V8<]3cl87`A>0Hi8h>KGKQ0
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 f?3LJfJz^7Rj:mA=77JP01
+!i10b 1

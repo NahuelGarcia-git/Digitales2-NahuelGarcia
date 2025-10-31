@@ -1,0 +1,61 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte B\Ejercicio\simulation\modelsim
+vMultiplicador2x2
+IQRgZBk0=N2K[Iak?``7lJ0
+VM>BG1aQm0l3_Z^8J;1:Sd3
+Z1 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte B\Ejercicio\simulation\modelsim
+w1761328813
+8Multiplicador2x2_7_1200mv_85c_slow.vo
+FMultiplicador2x2_7_1200mv_85c_slow.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+n@multiplicador2x2
+!i10b 1
+!s100 XJb?aZU976mAB`7XF1_1J0
+!s85 0
+!s108 1761329756.725000
+!s107 Multiplicador2x2_7_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Multiplicador2x2_7_1200mv_85c_slow.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+Emultiplicador_testbench
+Z3 w1761328751
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z6 8C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd
+Z7 FC:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd
+l0
+L4
+VJjmSAbd;_n2Gj<MiTYGbm3
+!s100 VSU<AGC;DcN40]5R9SU^l1
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1761329757.335000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd|
+Z11 !s107 C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte B/Ejercicio/multiplicador_testbench.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Acomportamiento
+R4
+R5
+DEx4 work 23 multiplicador_testbench 0 22 JjmSAbd;_n2Gj<MiTYGbm3
+l28
+L7
+VnfaLD1Az:l@bIYKX2G_W13
+!s100 Xea@4IYzgODeUckI4<]?H1
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13

@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte A\Ejercicio\simulation\modelsim
+Esumador_completo
+Z1 w1761071848
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte A\Ejercicio\simulation\modelsim
+Z5 8C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/Sumador_Completo.vhd
+Z6 FC:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/Sumador_Completo.vhd
+l0
+L4
+V9:Kc69:1TzkaBDg6e8B>R1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1761329974.772000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/Sumador_Completo.vhd|
+Z10 !s107 C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/Sumador_Completo.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 JZR5cEZC_W^n7I3I>j7I91
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 16 sumador_completo 0 22 9:Kc69:1TzkaBDg6e8B>R1
+l17
+L12
+V8<]3cl87`A>0Hi8h>KGKQ0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 f?3LJfJz^7Rj:mA=77JP01
+!i10b 1
+Esumador_testbench
+Z13 w1761163109
+R2
+R3
+R4
+Z14 8C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/sumador_testbench.vhd
+Z15 FC:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/sumador_testbench.vhd
+l0
+L4
+VQncBod5bZGFY5S;g>E2Qb2
+!s100 :4QTH5EH;GO[DI^ImoA>E0
+R7
+31
+!i10b 1
+Z16 !s108 1761329975.194000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/sumador_testbench.vhd|
+Z18 !s107 C:/Users/nicol/Desktop/FPGA - Nahuel García/Parte A/Ejercicio/sumador_testbench.vhd|
+R11
+R12
+Acomportamiento
+R2
+R3
+DEx4 work 17 sumador_testbench 0 22 QncBod5bZGFY5S;g>E2Qb2
+l22
+L7
+VAdH?:nZ]<16RJ2W3BEB0n1
+!s100 O_W8XYY8DTenE;Uz]f?UV1
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

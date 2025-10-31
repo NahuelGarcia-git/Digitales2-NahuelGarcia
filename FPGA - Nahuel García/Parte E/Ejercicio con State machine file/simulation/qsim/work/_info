@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte E\Ejercicio con State machine file\simulation\qsim
+vState_machine
+Z1 !s100 >Oa=^lDEj9_JVQJnOG[iF0
+Z2 IDG[ODMFQZnfzXf<87RmM90
+Z3 VFU?<cWAVDX1XoCN6DC=c`0
+Z4 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte E\Ejercicio con State machine file\simulation\qsim
+Z5 w1761659638
+Z6 8State_machine.vo
+Z7 FState_machine.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|State_machine.vo|
+Z10 o-work work -O0
+Z11 n@state_machine
+!i10b 1
+!s85 0
+Z12 !s108 1761659639.926000
+Z13 !s107 State_machine.vo|
+!s101 -O0
+vState_machine_vlg_check_tst
+!i10b 1
+Z14 !s100 36iBBz2:incg22]fH_Uz:3
+Z15 I9gYfiKb`oK=^F3bRlE3g[0
+Z16 V;=K2hg=lRGcmPibWb5e2k0
+R4
+Z17 w1761659636
+Z18 8State_machine.vt
+Z19 FState_machine.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1761659640.177000
+Z21 !s107 State_machine.vt|
+Z22 !s90 -work|work|State_machine.vt|
+!s101 -O0
+R10
+Z23 n@state_machine_vlg_check_tst
+vState_machine_vlg_sample_tst
+!i10b 1
+Z24 !s100 j6Ni7;Iebha^_Y[;YZHbc1
+Z25 IY_zFbWa_O6LodQEEagVo@2
+Z26 Vno_jb=D=XFcd[m4PoHX=C2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@state_machine_vlg_sample_tst
+vState_machine_vlg_vec_tst
+!i10b 1
+!s100 AjLQRENa?LT;66zmKg1=_1
+Im=zJ2j8PZmf[WkhZOo:[I3
+Z28 Vn:Z4OSf>ij_T@Jk2`5^<C0
+R4
+R17
+R18
+R19
+Z29 L0 237
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@state_machine_vlg_vec_tst

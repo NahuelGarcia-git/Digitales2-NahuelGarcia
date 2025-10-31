@@ -1,0 +1,14 @@
+|Sumador_Completo
+A => cand2.IN0
+A => cand3.IN0
+A => S.IN1
+B => cxor.IN0
+B => cand1.IN0
+B => cand2.IN1
+Cin => cxor.IN1
+Cin => cand1.IN1
+Cin => cand3.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
