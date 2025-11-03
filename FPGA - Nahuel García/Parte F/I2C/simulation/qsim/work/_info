@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nicol\Desktop\FPGA - Nahuel García\Parte F\I2C\simulation\qsim
+vI2C
+Z1 !s100 3XhQmFQK2CQXmOTKS6[;S2
+Z2 IHN6Tk4eN]g;EAaBdUmK^F3
+Z3 Vk0bDIg>mcmKffLNUezm>`1
+Z4 dC:\Users\User\Desktop\FPGA - Nahuel García\Parte F\I2C\simulation\qsim
+Z5 w1762198155
+Z6 8I2C.vo
+Z7 FI2C.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|I2C.vo|
+Z10 o-work work -O0
+Z11 n@i2@c
+Z12 !s108 1762198155.777000
+Z13 !s107 I2C.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vI2C_vlg_check_tst
+Z14 !s100 3@EUfe<>FYkM][2z=U?N_2
+Z15 I;NA5fAi@jFB`1B;U5bIgM1
+Z16 VbA]:^X9EWCIn69mX_3a1a3
+R4
+Z17 w1762198153
+Z18 8I2C.vt
+Z19 FI2C.vt
+L0 67
+R8
+r1
+31
+Z20 !s108 1762198156.042000
+Z21 !s107 I2C.vt|
+Z22 !s90 -work|work|I2C.vt|
+R10
+Z23 n@i2@c_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vI2C_vlg_sample_tst
+Z24 !s100 nh:Ob5<_1e>^GgzDd4aFN3
+Z25 In5BbE[mhBTXh6Sad[DCD_2
+Z26 V:zZhKK9z`a0LaLHQ7o26L0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@i2@c_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vI2C_vlg_vec_tst
+Z28 !s100 D=TXaHF:1VMEWUj7gDUM81
+Z29 I8e63=h34YQa1LA0[OQfLG2
+Z30 V3^MS>BeTK8VjNIo]9SaD[1
+R4
+R17
+R18
+R19
+Z31 L0 216
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@i2@c_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vInter_Integrated_Circuit
+Z33 I:<D0[T9UEVg0iBXB?B=9d3
+Z34 VViNCSmHWEHP7m^:zcX45i3
+Z35 dC:\Users\nicol\Desktop\Parte F\I2C\simulation\qsim
+Z36 w1762206712
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z37 n@inter_@integrated_@circuit
+!i10b 1
+Z38 !s100 gk0MXHzNLN554UbHl9NMU0
+!s85 0
+Z39 !s108 1762206717.286000
+R13
+!s101 -O0
+vInter_Integrated_Circuit_vlg_check_tst
+!i10b 1
+Z40 !s100 Q>O_BHgFH`IBP>U0_BCA>3
+Z41 Iaf1]EAVGK6C?g<KaK^mgz2
+Z42 VPXlbc`>f<__<0VXHQMO5o2
+R35
+Z43 w1762206710
+R18
+R19
+L0 59
+R8
+r1
+!s85 0
+31
+Z44 !s108 1762206717.599000
+Z45 !s107 I2C.vt|
+R22
+!s101 -O0
+R10
+Z46 n@inter_@integrated_@circuit_vlg_check_tst
+vInter_Integrated_Circuit_vlg_sample_tst
+!i10b 1
+Z47 !s100 =LJ:Hb77g4UmnX`BaAO^_0
+Z48 I7U7af[6[XKG@HmnFR35ZQ0
+Z49 Vf>?z1NA2MEU73fheHJ1i32
+R35
+R43
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R44
+R45
+R22
+!s101 -O0
+R10
+Z50 n@inter_@integrated_@circuit_vlg_sample_tst
+vInter_Integrated_Circuit_vlg_vec_tst
+!i10b 1
+Z51 !s100 >IS6WieD8G40cJQJKY`O_2
+Z52 Ib]CVhM4c2OBinL<Rkf>R]3
+Z53 Vi2RJLARiROnh^Wo?=K3UN1
+R35
+R43
+R18
+R19
+Z54 L0 208
+R8
+r1
+!s85 0
+31
+R44
+R45
+R22
+!s101 -O0
+R10
+Z55 n@inter_@integrated_@circuit_vlg_vec_tst

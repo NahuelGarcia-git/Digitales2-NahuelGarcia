@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="I2C">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Inter_Integrated_Circuit|Primer_bloque:inst3|lpm_compare0:b2v_Comparador|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_saj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Inter_Integrated_Circuit|Primer_bloque:inst3|lpm_counter0:b2v_Contador_modulo7|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_3hj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Inter_Integrated_Circuit|Segundo_bloque:inst2|lpm_counter1:b2v_Contador_modulo8|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_3hj.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
